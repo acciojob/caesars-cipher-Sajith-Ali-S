@@ -30,7 +30,13 @@ const lookup = {
 
                     //decodedArr[i]= currentChar;
       }
-     return decodedArr ;//return decodedArr
+	  /return decodedArr
+    let ans = "";
+    for(let i=0; i<decodedArr.length; i++){
+      ans = ans.concat(decodedArr[i])
+    }
+    return ans
+     
   }
   
   // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
